@@ -31,6 +31,11 @@ PRODUCT_MODEL := Samsung Galaxy J7 Prime
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
+# RiceDroid Specifics
+# RICE_MAINTAINER := Otus9051
+# WITH_GMS := false
+# SUSHI_BOOTANIMATION := 1080
+# TARGET_ENABLE_BLUR := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRIVATE_BUILD_DESC="google/raven/raven:12/S3B1.220218.006/8325196:user/release-keys"
