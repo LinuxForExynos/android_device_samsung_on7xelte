@@ -31,7 +31,8 @@ PRODUCT_MODEL := Samsung Galaxy J7 Prime
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRIVATE_BUILD_DESC="on7xeltedd-user 7.0 NRD90M G610FDDU1BRG2 release-keys"
 
-BUILD_FINGERPRINT := samsung/on7xeltedd/on7xelte:7.0/NRD90M/G610FDDU1BRG2:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRIVATE_BUILD_DESC="google/raven/raven:12/S3B1.220218.006/8325196:user/release-keys"
+
+BUILD_FINGERPRINT := google/raven/raven:12/S3B1.220218.006/8325196:user/release-keys
