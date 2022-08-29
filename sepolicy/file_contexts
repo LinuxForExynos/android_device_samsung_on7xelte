@@ -87,3 +87,4 @@
 
 
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.samsung                  u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper@1\.0-service\.software	  u:object_r:hal_gatekeeper_default_exec:s0
